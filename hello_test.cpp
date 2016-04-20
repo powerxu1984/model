@@ -10,10 +10,11 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-using namespace std;
 #define OAM_DIAMETER_SYSTEM_DEFAULT_TIMEOUT                  3000
 #define OAM_DIAMETER_SYSTEM_MIN_TIMEOUT                       100
 #define OAM_DIAMETER_SYSTEM_MAX_TIMEOUT                     60000
+
+using namespace std;
 
 int main() {
 	string timer;
